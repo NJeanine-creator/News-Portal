@@ -23,7 +23,7 @@ public class sql2oDepartmentsTest {
     public void setUp() {
 
         String connectionString = "jdbc:postgresql://localhost:5432/newsportal_test";
-        Sql2o sql2o = new Sql2o(connectionString, "belyse", "belyse");
+        Sql2o sql2o = new Sql2o(connectionString, "nishimwe", "nishimwe");
 
         sql2oDepartments=new sql2oDepartments(sql2o);
         sql2oUsersDao=new sql2oUsers(sql2o);
@@ -62,7 +62,7 @@ public class sql2oDepartmentsTest {
         Departments department=setDepartment();
         sql2oDepartments.addDept(department);
         Users user=setUser();
-        Users otherUser= new Users("belyse","developer","Coding");
+        Users otherUser= new Users("nishimwe","developer","Coding");
         sql2oUsersDao.add(user);
         sql2oUsersDao.add(otherUser);
         sql2oDepartments.addUserIntoDept(user,department);
@@ -97,7 +97,7 @@ public class sql2oDepartmentsTest {
         Departments department=setDepartment();
         sql2oDepartments.addDept(department);
         Users user=setUser();
-        Users otherUser= new Users("belyse","developer","coding");
+        Users otherUser= new Users("nishimwe","developer","coding");
         sql2oUsersDao.add(user);
         sql2oUsersDao.add(otherUser);
         sql2oDepartments.addUserIntoDept(user,department);
@@ -125,7 +125,7 @@ public class sql2oDepartmentsTest {
         return new Departments("sale","marketing");
     }
     private Users setUser() {
-        return new Users("belyse","hr","recruiting");
+        return new Users("nishimwe","hr","recruiting");
     }
 
 }

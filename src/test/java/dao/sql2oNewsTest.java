@@ -25,7 +25,7 @@ public class sql2oNewsTest {
     public void setUp() throws Exception {
 
         String connectionString = "jdbc:postgresql://localhost:5432/newsportal_test";
-        Sql2o sql2o = new Sql2o(connectionString, "belyse", "belyse");
+        Sql2o sql2o = new Sql2o(connectionString, "nishimwe", "nishimwe");
 
 
         sql2oDepartments=new sql2oDepartments(sql2o);
@@ -105,7 +105,7 @@ public class sql2oNewsTest {
         return new Departments("sale","marketing");
     }
     private Users setUsers() {
-        return new Users("belyse","hr","recruiting");
+        return new Users("nishimwe","hr","recruiting");
     }
 
 }

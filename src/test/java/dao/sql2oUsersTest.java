@@ -61,7 +61,7 @@ public class sql2oUsersTest {
         sql2oUsers.add(users);
         sql2oUsers.add(otherUser);
         assertEquals(users.getName(),sql2oUsers.getAll().get(0).getName());
-       assertEquals(otherUser.getName(),sql2oUsers.getAll().get(1).getName());
+        assertEquals(otherUser.getName(),sql2oUsers.getAll().get(1).getName());
     }
     @Test
     public void getDepartmentsUserIsIn() {

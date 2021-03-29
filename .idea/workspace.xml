@@ -23,8 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc19e050-1458-4ea0-a437-ecf8f236403a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/dao/sql2oDepartmentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/dao/sql2oDepartmentsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/dao/sql2oNewsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/dao/sql2oNewsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/dao.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/dao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/sql2oDepartmentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/sql2oDepartmentsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/sql2oNewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/sql2oNewsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/sql2oUsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/sql2oUsersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +52,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NewsPortal" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,6 +105,72 @@
       <recent name="$PROJECT_DIR$/src/main/java/Exceptions" />
     </key>
   </component>
+  <component name="RunManager" selected="Gradle.sql2oUsersTest">
+    <configuration name="sql2oDepartmentsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dao.sql2oDepartmentsTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="sql2oNewsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dao.sql2oNewsTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="sql2oUsersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dao.sql2oUsersTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.sql2oUsersTest" />
+        <item itemvalue="Gradle.sql2oDepartmentsTest" />
+        <item itemvalue="Gradle.sql2oNewsTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,6 +181,9 @@
       <updated>1617039640675</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -95,5 +201,25 @@
       <screen x="0" y="27" width="1366" height="673" />
     </state>
     <state x="166" y="27" width="1024" height="673" key="#Project_Structure/0.27.1366.673@0.27.1366.673" timestamp="1617043375701" />
+    <state width="1320" height="150" key="GridCell.Tab.0.bottom" timestamp="1617049043717">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state width="1320" height="150" key="GridCell.Tab.0.bottom/0.27.1366.673@0.27.1366.673" timestamp="1617049043717" />
+    <state width="1320" height="150" key="GridCell.Tab.0.center" timestamp="1617049043716">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state width="1320" height="150" key="GridCell.Tab.0.center/0.27.1366.673@0.27.1366.673" timestamp="1617049043716" />
+    <state width="1320" height="150" key="GridCell.Tab.0.left" timestamp="1617049043715">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state width="1320" height="150" key="GridCell.Tab.0.left/0.27.1366.673@0.27.1366.673" timestamp="1617049043715" />
+    <state width="1320" height="150" key="GridCell.Tab.0.right" timestamp="1617049043717">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state width="1320" height="150" key="GridCell.Tab.0.right/0.27.1366.673@0.27.1366.673" timestamp="1617049043717" />
+    <state x="526" y="278" width="303" height="178" key="VCS.ChangelistChooser" timestamp="1617048230814">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state x="526" y="278" width="303" height="178" key="VCS.ChangelistChooser/0.27.1366.673@0.27.1366.673" timestamp="1617048230814" />
   </component>
 </project>
