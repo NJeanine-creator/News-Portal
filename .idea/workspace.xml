@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc19e050-1458-4ea0-a437-ecf8f236403a" name="Default Changelist" comment="" />
+    <list default="true" id="fc19e050-1458-4ea0-a437-ecf8f236403a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +57,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/java/dao" />
       <recent name="$PROJECT_DIR$/src/main/java/Exceptions" />
       <recent name="$PROJECT_DIR$/src/main/java/models" />
       <recent name="$PROJECT_DIR$/src/main/java" />
