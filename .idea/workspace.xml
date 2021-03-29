@@ -53,10 +53,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Exceptions" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Exceptions" />
       <recent name="$PROJECT_DIR$/src/main/java/models" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
