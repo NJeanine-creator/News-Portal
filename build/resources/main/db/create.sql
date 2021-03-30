@@ -1,34 +1,23 @@
-CREATE DATABASE newsportal;
-\c newsportal
+* CREATE DATABASE companynews;
+ c\ companynews
+* CREATE TABLE departments (id serial PRIMARY KEY,name varchar, description varchar);
 
-CREATE TABLE departments (
-id SERIAL PRIMARY KEY,
-name VARCHAR,
-description VARCHAR,
-size int
-);
+* CREATE TABLE employees(id serial PRIMARY KEY,name varchar, position varchar, role varchar,department_id int);
 
-CREATE TABLE news (
-id SERIAL PRIMARY KEY,
-news_type VARCHAR,
-department_id INT,
-user_id INT,
-title VARCHAR,
-description VARCHAR
-);
+* CREATE TABLE employees_departments(id serial PRIMARY KEY,employee_id int, department_id int);
 
-CREATE TABLE staff (
-id SERIAL PRIMARY KEY,
-name VARCHAR,
-staff_position VARCHAR,
-staff_role VARCHAR
-);
+* CREATE TABLE generalnews
+(id serial PRIMARY KEY,
+title varchar,
+writtenby varchar,
+content varchar,
+createdat timestamp,
+employee_id int);
 
-CREATE TABLE users_departments (
-id SERIAL PRIMARY KEY,
-user_id INT,
-department_id INT
-);
+* CREATE TABLE employees_generalnews(id serial PRIMARY KEY, employee_id int,generalnews_id int);
 
-CREATE DATABASE newsportal_test WITH TEMPLATE newsportal;
+* CREATE TABLE departmentnews(id serial PRIMARY KEY,title varchar, writtenby varchar, content varchar,createdat timestamp, employee_id int,department_id int);
 
+* CREATE TABLE employees_departmentnews(id serial PRIMARY KEY, employee_id int,departmentnews_id int);
+
+* CREATE TABLE departments_departmentnews(id serial PRIMARY KEY, department_id int,departmentnews_id int);
