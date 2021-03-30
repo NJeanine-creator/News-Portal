@@ -94,10 +94,10 @@ public class Sql2oDepartmentDaoTest {
     }
     @Test
     public void getAllFoodtypesForARestaurantReturnsFoodtypesCorrectly() throws Exception {
-        Employee testEmployee = new Employee("Ange", "secretary","director's assistent");
+        Employee testEmployee = new Employee("Ange", "secretary","director's assistant");
         employeeDao.add(testEmployee);
 
-        Employee otherEmployee = new Employee("Anita", "secretary","director's assistent");
+        Employee otherEmployee = new Employee("Anita", "secretary","director's assistant");
         employeeDao.add(otherEmployee);
 
         Department testdepartment = setupDepartment();
@@ -111,7 +111,7 @@ public class Sql2oDepartmentDaoTest {
     }
     @Test
     public void deleteingRestaurantAlsoUpdatesJoinTable() throws Exception {
-        Employee testEmployee = new Employee("Ange", "secretary","director's assistent");
+        Employee testEmployee = new Employee("Ange", "secretary","director's assistant");
         employeeDao.add(testEmployee);
 
         Department testdepartment = setupDepartment();

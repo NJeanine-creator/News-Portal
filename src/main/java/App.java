@@ -82,26 +82,7 @@ public class App {
             return new ModelAndView(model,"departmentview.hbs");
         },new HandlebarsTemplateEngine());
 
-        //retrive department news
-       /*get("/view/location/sightings/:id",(request, response) -> {
-            Map<String,Object> model=new HashMap<String, Object>();
-            int idOfLocation= Integer.parseInt(request.params(":id"));
-            Department foundLocation= Department.sql2oDepartmentDao.findById(idOfLocation);
-            List<DepartmentNews> news=foundLocation.getAll();
-            ArrayList<String> animals=new ArrayList<String>();
-            ArrayList<String> types=new ArrayList<String>();
-            for (RegSighting sighting : news){
-                String animal_name=RegAnimal.find(sighting.getRegAnimal_id()).getName();
-                String animal_type=RegAnimal.find(sighting.getRegAnimal_id()).getType();
-                animals.add(animal_name);
-                types.add(animal_type);
-            }
-            model.put("sightings",news);
-            model.put("animals",animals);
-            model.put("types",types);
-            model.put("locations",RegLocation.all());
-            return new ModelAndView(model,"locationview.hbs");
-        },new HandlebarsTemplateEngine());*/
+        //retrieve department news
 
 
     //Api
@@ -231,7 +212,7 @@ public class App {
                 return gson.toJson(sql2oEmployeeDao.getAll());
             }
             else {
-                return "{\"message\":\"I'm sorry, but no employees are currently listed in the database.\"}";
+                return "{\"message\":\"Sorry,Currently, there is no employees listed in the database.\"}";
             }
         });
 
@@ -241,7 +222,7 @@ public class App {
                 return gson.toJson(sql2oEmployeeDao.getAllEmployeeByDepartment(id));
             }
             else {
-                return "{\"message\":\"I'm sorry, but employee is in no department.\"}";
+                return "{\"message\":\"Sorry,there is employee in department.\"}";
             }
         });
 
@@ -308,7 +289,7 @@ public class App {
                 return gson.toJson(sql2oGeneralNewsDao.getAll());
             }
             else {
-                return "{\"message\":\"I'm sorry, but no news are currently listed in the database.\"}";
+                return "{\"message\":\"Sorry, No news yet\"}";
             }
         });
 
