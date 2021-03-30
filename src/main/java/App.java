@@ -211,20 +211,6 @@ public class App {
             return gson.toJson(departmentUsers);
         });
         //FILTERS
-        exception(ApiExceptions.class, (exception, request, response) -> {
-            ApiExceptions err = exception;
-            Map<String, Object> jsonMap = new HashMap<>();
-            jsonMap.put("status", err.getStatusCode());
-            jsonMap.put("errorMessage", err.getMessage());
-            response.type("application/json");
-            response.status(err.getStatusCode());
-            response.body(gson.toJson(jsonMap));
-        });
-
-
-        after((request, response) ->{
-            response.type("application/json");
-        });
 
     }
 }
