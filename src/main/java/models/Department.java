@@ -6,11 +6,11 @@ public class Department {
     private static int id;
     private String name;
     private String description;
-    private int size;
+    private String size;
 
 
 
-    public Department(String name,String description) {
+    public Department(String name, String description, String size) {
         this.description = description;
         this.name = name;
         this.size = size;
@@ -23,7 +23,7 @@ public class Department {
     public String getDescription() {
         return description;
     }
-    public int getSize() { return size; }
+    public String getSize() { return size; }
     public static int getId() {
         return id;
     }
@@ -34,7 +34,7 @@ public class Department {
     public void setDescription(String description) {
         this.description = description;
     }
-    public void setSize(int size) { this.size = size; }
+    public void setSize(String size) { this.size = size; }
     public void setId(int id) {
         this.id = id;
     }

@@ -67,7 +67,7 @@ public class App {
             String name=request.queryParams("name");
             String description=request.queryParams("description");
             String size=request.queryParams("size");
-            Department department=new Department(name,description);
+            Department department=new Department(name,description,size);
             sql2oDepartmentDao.add( department);
             request.session().attribute("item", name);
             model.put("item", request.session().attribute("item"));

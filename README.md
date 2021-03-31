@@ -15,7 +15,7 @@ This is a Java program that  allows the Employees to register themselves and pos
 
 * \c companynews;
 
-* CREATE TABLE departments (id serial PRIMARY KEY,name varchar, description varchar);CREATE TABLE
+* CREATE TABLE departments (id serial PRIMARY KEY,name varchar, description varchar,size int);
 
 * CREATE TABLE employees(id serial PRIMARY KEY,name varchar, position varchar, role varchar,department_id int);
 
@@ -31,6 +31,7 @@ This is a Java program that  allows the Employees to register themselves and pos
 
 * CREATE TABLE departments_departmentnews(id serial PRIMARY KEY, department_id int,departmentnews_id int);
 
+* CREATE DATABASE companynews_test WITH TEMPLATE companynews;
 
 ## Technologies Used
 

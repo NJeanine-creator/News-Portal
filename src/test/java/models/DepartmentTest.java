@@ -34,6 +34,11 @@ public class DepartmentTest {
         assertEquals("TECHNOLOGY TASKS OF THE BUSINESS", testDepartment.getDescription());
     }
 
+    public void setSize() {
+        Department testDepartment = setupDepartment();
+        testDepartment.setName("10");
+        assertNotEquals("MANAGEMENT", testDepartment.getName());
+    }
     @Test
     public void setDescription() {
         Department testDepartment = setupDepartment();
@@ -51,8 +56,7 @@ public class DepartmentTest {
 
     // helper
     public Department setupDepartment (){
-        return new Department("IT", "TECHNOLOGY TASKS OF THE BUSINESS");
+        return new Department("IT", "TECHNOLOGY TASKS OF THE BUSINESS",  "10");
     }
-
 
 }

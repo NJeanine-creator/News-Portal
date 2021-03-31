@@ -31,24 +31,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/dao.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/dao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/db/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/departementnewsview.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/departementnewsview.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/departmentform.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/departmentform.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/departmentnewsform.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/departmentnewsform.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/departmentview.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/departmentview.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employeeform.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employeeform.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employeeview.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employeeview.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/generalnewsform.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/generalnewsform.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/generalnewsview.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/generalnewsview.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oDepartmentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oDepartmentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oDepartmentNewsDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oDepartmentNewsDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/DepartmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +98,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -113,6 +110,25 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Sql2oDepartmentDaoTest">
+    <configuration name="DepartmentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;models.DepartmentTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Sql2oDepartmentDaoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,25 +186,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="sql2oNewsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.sql2oNewsTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="sql2oUsersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -211,10 +208,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Sql2oDepartmentDaoTest" />
+        <item itemvalue="Gradle.DepartmentTest" />
         <item itemvalue="Gradle.Sql2oDepartmentNewsDaoTest" />
         <item itemvalue="Gradle.sql2oUsersTest" />
         <item itemvalue="Gradle.sql2oDepartmentsTest" />
-        <item itemvalue="Gradle.sql2oNewsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,22 +251,22 @@
       <screen x="0" y="27" width="1366" height="673" />
     </state>
     <state x="416" y="112" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.673@0.27.1366.673" timestamp="1617110191970" />
-    <state width="1320" height="159" key="GridCell.Tab.0.bottom" timestamp="1617127991807">
+    <state width="1320" height="159" key="GridCell.Tab.0.bottom" timestamp="1617193518220">
       <screen x="0" y="27" width="1366" height="673" />
     </state>
-    <state width="1320" height="159" key="GridCell.Tab.0.bottom/0.27.1366.673@0.27.1366.673" timestamp="1617127991807" />
-    <state width="1320" height="159" key="GridCell.Tab.0.center" timestamp="1617127991804">
+    <state width="1320" height="159" key="GridCell.Tab.0.bottom/0.27.1366.673@0.27.1366.673" timestamp="1617193518220" />
+    <state width="1320" height="159" key="GridCell.Tab.0.center" timestamp="1617193518219">
       <screen x="0" y="27" width="1366" height="673" />
     </state>
-    <state width="1320" height="159" key="GridCell.Tab.0.center/0.27.1366.673@0.27.1366.673" timestamp="1617127991804" />
-    <state width="1320" height="159" key="GridCell.Tab.0.left" timestamp="1617127991803">
+    <state width="1320" height="159" key="GridCell.Tab.0.center/0.27.1366.673@0.27.1366.673" timestamp="1617193518219" />
+    <state width="1320" height="159" key="GridCell.Tab.0.left" timestamp="1617193518218">
       <screen x="0" y="27" width="1366" height="673" />
     </state>
-    <state width="1320" height="159" key="GridCell.Tab.0.left/0.27.1366.673@0.27.1366.673" timestamp="1617127991803" />
-    <state width="1320" height="159" key="GridCell.Tab.0.right" timestamp="1617127991806">
+    <state width="1320" height="159" key="GridCell.Tab.0.left/0.27.1366.673@0.27.1366.673" timestamp="1617193518218" />
+    <state width="1320" height="159" key="GridCell.Tab.0.right" timestamp="1617193518220">
       <screen x="0" y="27" width="1366" height="673" />
     </state>
-    <state width="1320" height="159" key="GridCell.Tab.0.right/0.27.1366.673@0.27.1366.673" timestamp="1617127991806" />
+    <state width="1320" height="159" key="GridCell.Tab.0.right/0.27.1366.673@0.27.1366.673" timestamp="1617193518220" />
     <state width="1320" height="300" key="GridCell.Tab.1.bottom" timestamp="1617109182216">
       <screen x="0" y="27" width="1366" height="673" />
     </state>
@@ -286,9 +283,31 @@
       <screen x="0" y="27" width="1366" height="673" />
     </state>
     <state width="1320" height="300" key="GridCell.Tab.1.right/0.27.1366.673@0.27.1366.673" timestamp="1617109182215" />
+    <state x="172" y="27" width="1012" height="673" key="SettingsEditor" timestamp="1617191427252">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state x="172" y="27" width="1012" height="673" key="SettingsEditor/0.27.1366.673@0.27.1366.673" timestamp="1617191427252" />
     <state x="526" y="278" width="303" height="178" key="VCS.ChangelistChooser" timestamp="1617048230814">
       <screen x="0" y="27" width="1366" height="673" />
     </state>
     <state x="526" y="278" width="303" height="178" key="VCS.ChangelistChooser/0.27.1366.673@0.27.1366.673" timestamp="1617048230814" />
+    <state x="192" y="46" width="972" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1617190363013">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state x="192" y="46" width="972" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1366.673@0.27.1366.673" timestamp="1617190363013" />
+    <state x="515" y="121" width="325" height="492" key="refactoring.ChangeSignatureDialog" timestamp="1617192747100">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state x="515" y="121" width="325" height="492" key="refactoring.ChangeSignatureDialog/0.27.1366.673@0.27.1366.673" timestamp="1617192747100" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.postgresql.util.PSQLException" package="org.postgresql.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
